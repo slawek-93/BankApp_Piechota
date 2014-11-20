@@ -3,20 +3,18 @@ package users;
 
 
 public class Employee extends User {
-public Employee(String name, String surname, Integer id) {
-		super(name, surname, id);
-		// TODO Auto-generated constructor stub
+
+public Employee(String name, String surname, Integer id, String city,
+			String street, int number, String mail,
+			Integer sallary, Integer branchId) {
+		super(name, surname, id, city, street, number, mail);
+		this.sallary = sallary;
+		this.branchId = branchId;
 	}
-private Integer id;
 private Integer sallary;
 private Integer branchId;
 
-public Integer getId() {
-	return id;
-}
-public void setId(Integer id) {
-	this.id = id;
-}
+
 public Integer getSallary() {
 	return sallary;
 }

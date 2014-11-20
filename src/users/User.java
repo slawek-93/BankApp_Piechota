@@ -8,12 +8,12 @@ private Address address;
 
 
 
-public User(String name, String surname, Integer id) {
+public User(String name, String surname, Integer id, String city, String street, int number, String mail) {
 	super();
 	this.name = name;
 	this.surname = surname;
 	this.id = id;
-	
+	this.address = new Address (city, street, number, mail);
 }
 
 public String getName() {

@@ -1,8 +1,11 @@
 package users;
 
 public class Customer extends User{
-public Customer(String name, String surname, Integer id) {
-		super(name, surname, id);
+
+
+public Customer(String name, String surname, Integer id, String city,
+			String street, int number, String mail) {
+		super(name, surname, id, city, street, number, mail);
 		// TODO Auto-generated constructor stub
 	}
 

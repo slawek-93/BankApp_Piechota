@@ -8,6 +8,18 @@ private String city;
 
 
 
+public Address(String city, String street, int number, String mail) {
+	super();
+	this.street = street;
+	this.number = number;
+	this.mail = mail;
+	this.city = city;
+}
+
+
+
+
+
 public String getStreet() {
 	return street;
 }
