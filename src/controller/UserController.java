@@ -1,4 +1,4 @@
-package managers;
+package controller;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ import users.Accountant;
 import users.Manager;
 import users.Security;
 
-public class BankManagers
+public class UserController
 {	
 	public ArrayList<Employee> getAllEmployeesFromBoss (Boss boss)
 	{
